@@ -28,11 +28,3 @@ CookAI is a fullstack AI-powered web application that recommends recipes based o
 - Anthropic SDK (Claude 3)
 
 ---
-
-## 📦 Installation
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/ddddominique/CookAI.git
-cd CookAI
