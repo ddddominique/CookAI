@@ -1,12 +1,38 @@
-# React + Vite
+# 👨‍🍳 CookAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CookAI is a fullstack AI-powered web application that recommends recipes based on ingredients you have on hand. Just type in what’s in your fridge, and CookAI uses Claude 3 by Anthropic to whip up a recipe suggestion — instantly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧠 AI-generated recipe suggestions via Claude 3 Haiku
+- ⚡ Fast and responsive interface built with React + Vite
+- 🔐 Secure backend powered by Node.js and Express
+- 🧾 Real-time ingredient input and live recipe display
+- 🎯 Clean, scalable architecture with RESTful API design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+**Frontend**:
+- React.js
+- Vite
+- CSS
+
+**Backend**:
+- Node.js
+- Express
+- dotenv (for API key security)
+- Anthropic SDK (Claude 3)
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/ddddominique/CookAI.git
+cd CookAI
